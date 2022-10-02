@@ -1,0 +1,82 @@
+.main{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.header{
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.searchbar {
+  display: flex;
+  position: relative;
+  border-radius: 15px;
+  background-color: lightgray;
+  box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.4);
+  width: 220px;
+  max-width: 220px;
+  height: 38px;
+
+}
+.search {
+  display: flex;
+  position: relative;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.search_input {
+  display: flex;
+  position: relative;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  font-family: sans-serif;
+  color:  rgb(48, 48, 48);
+}
+
+.search_button {
+  margin-left:70px;
+  width: 90px;
+  height: 38px;
+  border: none;
+  outline: none;
+  background: rgb(60, 153, 240);
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.search_button:hover {
+  background: rgb(7, 127, 240);
+  width: 92px;
+}
+
+
+.table-content{
+  padding-top: 30px;
+  margin: auto;
+  display: table;
+  position: relative;
+}
+
+table {
+  border: thin solid lightgray;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  font-family: sans-serif;
+  border: thin solid lightgray;
+  padding: 8px;
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
